@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CrowdConnectedCore
+import AWSCognitoIdentityProvider
+import AWSCore
+@_exported import CrowdConnectedCore
+import CrowdConnectedShared
+import Foundation
+import Swift
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CrowdConnected : ObjectiveC.NSObject {
+  @objc weak public var delegate: CrowdConnectedCore.CrowdConnectedDelegate?
+  @objc public static let shared: CrowdConnectedCore.CrowdConnected
+  @objc public func start(appKey: Swift.String, token: Swift.String, secret: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> Swift.Void)
+  @objc public func stop()
+  @objc public func startNavigation()
+  @objc public func stopNavigation()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class Location : ObjectiveC.NSObject {
+  @objc public var xCoord: Swift.Double
+  @objc public var yCoord: Swift.Double
+  @objc public var latitude: Swift.Double
+  @objc public var longitude: Swift.Double
+  @objc public var floor: Swift.Int
+  @objc public var timestamp: Swift.Int64
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol CrowdConnectedDelegate {
+  @objc func didUpdateLocation(_ locations: [CrowdConnectedCore.Location])
+}
