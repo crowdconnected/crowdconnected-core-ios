@@ -23,7 +23,7 @@ let package = Package(
                 dependencies: [
                     .target(name: "CrowdConnectedCoreWrapper")
                 ],
-                path: "CrowdConnectedCoreWrapper"),
+                path: "CrowdConnectedCoreWrap"),
         .target(name: "CrowdConnectedCoreWrapper",
                 dependencies: [
                     .target(name: "CrowdConnectedCore"),
