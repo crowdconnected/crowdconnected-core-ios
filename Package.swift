@@ -14,7 +14,7 @@ let package = Package(
         .package(name: "CrowdConnectedShared",
                  url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
                  from: "1.0.1"),
-        .package(name: "AWS-SDK",
+        .package(name: "AWSiOSSDKV2",
                  url: "https://github.com/aws-amplify/aws-sdk-ios-spm",
                  from: "2.24.1")
     ],
@@ -28,9 +28,9 @@ let package = Package(
                 dependencies: [
                     .target(name: "CrowdConnectedCore"),
                     .product(name: "CrowdConnectedShared", package: "CrowdConnectedShared"),
-                    .product(name: "AWSCognitoIdentityProvider", package: "AWS-SDK"),
-                    .product(name: "AWSCognitoIdentityProviderASF", package: "AWS-SDK"),
-                    .product(name: "AWSCore", package: "AWS-SDK")
+                    .product(name: "AWSCognitoIdentityProvider", package: "AWSiOSSDKV2"),
+                    .product(name: "AWSCognitoIdentityProviderASF", package: "AWSiOSSDKV2"),
+                    .product(name: "AWSCore", package: "AWSiOSSDKV2")
                 ],
                 path: "CrowdConnectedCoreWrapper"),
         .binaryTarget(name: "CrowdConnectedCore",
