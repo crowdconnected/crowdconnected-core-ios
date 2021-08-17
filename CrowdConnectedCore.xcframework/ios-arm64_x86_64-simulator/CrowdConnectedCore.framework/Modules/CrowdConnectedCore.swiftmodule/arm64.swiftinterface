@@ -1,19 +1,22 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CrowdConnectedCore
 import AWSCognitoIdentityProvider
 import AWSCore
+import BackgroundTasks
+import CoreLocation
 @_exported import CrowdConnectedCore
 import CrowdConnectedShared
 import Foundation
+import SQLite3
 import Swift
+import UIKit
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CrowdConnected : ObjectiveC.NSObject {
   @objc weak public var delegate: CrowdConnectedCore.CrowdConnectedDelegate?
   @objc public static let shared: CrowdConnectedCore.CrowdConnected
   @objc public func start(appKey: Swift.String, token: Swift.String, secret: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> Swift.Void)
   @objc public func stop()
-  @objc public func startNavigation()
-  @objc public func stopNavigation()
+  public func setAlias(key: Swift.String, value: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class Location : ObjectiveC.NSObject {
