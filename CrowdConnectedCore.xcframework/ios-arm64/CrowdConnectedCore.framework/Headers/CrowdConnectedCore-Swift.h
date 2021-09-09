@@ -238,6 +238,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CrowdConnect
 - (void)startWithAppKey:(NSString * _Nonnull)appKey token:(NSString * _Nonnull)token secret:(NSString * _Nonnull)secret completion:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable))completion;
 /// Stop the library and all its processes.
 - (void)stop;
+/// Set and persists an alias for the current device.
+- (void)setAliasWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
 @end
 
 

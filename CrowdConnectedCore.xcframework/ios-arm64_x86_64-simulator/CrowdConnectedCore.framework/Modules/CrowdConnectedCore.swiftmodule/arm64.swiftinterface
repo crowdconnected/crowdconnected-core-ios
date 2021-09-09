@@ -16,7 +16,7 @@ import UIKit
   @objc public static let shared: CrowdConnectedCore.CrowdConnected
   @objc public func start(appKey: Swift.String, token: Swift.String, secret: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> Swift.Void)
   @objc public func stop()
-  public func setAlias(key: Swift.String, value: Swift.String)
+  @objc public func setAlias(key: Swift.String, value: Swift.String)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class Location : ObjectiveC.NSObject {
