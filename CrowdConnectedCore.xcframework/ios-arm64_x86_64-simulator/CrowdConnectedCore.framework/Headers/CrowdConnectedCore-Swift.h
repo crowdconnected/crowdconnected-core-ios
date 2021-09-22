@@ -271,6 +271,8 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore8Location")
 @property (nonatomic) double longitude;
 /// The floor number.
 @property (nonatomic) NSInteger floor;
+/// The surface of the location.
+@property (nonatomic, copy) NSString * _Nonnull surfaceID;
 /// The timestamp of the location.
 @property (nonatomic) int64_t timestamp;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -556,6 +558,8 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore8Location")
 @property (nonatomic) double longitude;
 /// The floor number.
 @property (nonatomic) NSInteger floor;
+/// The surface of the location.
+@property (nonatomic, copy) NSString * _Nonnull surfaceID;
 /// The timestamp of the location.
 @property (nonatomic) int64_t timestamp;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

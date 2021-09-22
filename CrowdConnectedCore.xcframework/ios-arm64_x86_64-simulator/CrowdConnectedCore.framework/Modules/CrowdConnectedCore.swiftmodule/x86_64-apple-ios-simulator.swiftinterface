@@ -25,6 +25,7 @@ import UIKit
   @objc public var latitude: Swift.Double
   @objc public var longitude: Swift.Double
   @objc public var floor: Swift.Int
+  @objc public var surfaceID: Swift.String
   @objc public var timestamp: Swift.Int64
   @objc override dynamic public init()
   @objc deinit
