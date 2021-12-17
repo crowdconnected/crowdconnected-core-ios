@@ -1,4 +1,4 @@
-// swift-tools-version:5.4
+// swift-tools-version:5.5.2
 import PackageDescription
 
 let package = Package(
@@ -13,7 +13,7 @@ let package = Package(
     dependencies: [
         .package(name: "CrowdConnectedShared",
                  url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
-                 from: "1.0.7"),
+                 from: "1.1.0"),
         .package(name: "AWSiOSSDKV2",
                  url: "https://github.com/aws-amplify/aws-sdk-ios-spm",
                  from: "2.24.1")

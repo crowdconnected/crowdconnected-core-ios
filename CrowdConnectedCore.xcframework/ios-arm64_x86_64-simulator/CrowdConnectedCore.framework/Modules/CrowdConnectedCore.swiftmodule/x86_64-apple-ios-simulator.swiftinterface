@@ -1,15 +1,17 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CrowdConnectedCore
 import AWSCognitoIdentityProvider
 import AWSCore
 import BackgroundTasks
+import SystemConfiguration.CaptiveNetwork
 import CoreLocation
 @_exported import CrowdConnectedCore
 import CrowdConnectedShared
 import Foundation
 import SQLite3
 import Swift
+import SystemConfiguration
 import UIKit
 import _Concurrency
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CrowdConnected : ObjectiveC.NSObject {
@@ -17,14 +19,26 @@ import _Concurrency
   @objc public static let shared: CrowdConnectedCore.CrowdConnected
   @objc public func start(appKey: Swift.String, token: Swift.String, secret: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> Swift.Void)
   @objc public func stop()
+  @objc public func startNavigation()
+  @objc public func stopNavigation()
   @objc public func setAlias(key: Swift.String, value: Swift.String)
+  @available(iOS 13.0, *)
+  @objc public func activateLibraryBackgroundRefresh()
+  @available(iOS 13.0, *)
+  @objc public func scheduleLibraryRefresh()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class PixelCoordinates : ObjectiveC.NSObject {
+  @objc public var xPixels: Swift.Double
+  @objc public var yPixels: Swift.Double
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class Location : ObjectiveC.NSObject {
-  @objc public var xCoord: Swift.Double
-  @objc public var yCoord: Swift.Double
+  @objc public var xMeters: Swift.Double
+  @objc public var yMeters: Swift.Double
   @objc public var latitude: Swift.Double
   @objc public var longitude: Swift.Double
+  @objc public var pixelCoordinates: CrowdConnectedCore.PixelCoordinates?
   @objc public var floor: Swift.Int
   @objc public var surfaceID: Swift.String
   @objc public var timestamp: Swift.Int64
