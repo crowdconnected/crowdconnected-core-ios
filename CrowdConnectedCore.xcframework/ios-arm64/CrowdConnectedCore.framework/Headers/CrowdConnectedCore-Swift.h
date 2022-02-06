@@ -284,6 +284,8 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore8Location")
 @property (nonatomic, copy) NSString * _Nonnull surfaceID;
 /// The timestamp of the location.
 @property (nonatomic) int64_t timestamp;
+/// The type of the location. Can be either “cart” or “geo”.
+@property (nonatomic, copy) NSString * _Nonnull type;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

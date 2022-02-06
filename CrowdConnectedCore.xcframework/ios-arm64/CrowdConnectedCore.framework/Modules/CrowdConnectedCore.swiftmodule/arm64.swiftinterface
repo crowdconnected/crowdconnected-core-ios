@@ -42,6 +42,7 @@ import _Concurrency
   @objc public var floor: Swift.Int
   @objc public var surfaceID: Swift.String
   @objc public var timestamp: Swift.Int64
+  @objc public var type: Swift.String
   @objc deinit
 }
 @objc public protocol CrowdConnectedDelegate {
