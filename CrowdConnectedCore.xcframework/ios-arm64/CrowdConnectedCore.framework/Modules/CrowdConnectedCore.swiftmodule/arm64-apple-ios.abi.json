@@ -1,0 +1,5071 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AWSCore",
+        "printedName": "AWSCore",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AWSCognitoIdentityProvider",
+        "printedName": "AWSCognitoIdentityProvider",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite3",
+        "printedName": "SQLite3",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BackgroundTasks",
+        "printedName": "BackgroundTasks",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrowdConnected",
+        "printedName": "CrowdConnected",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "CrowdConnectedCore.CrowdConnectedDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(py)delegate",
+            "mangledName": "$s18CrowdConnectedCore0aB0C8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CrowdConnectedCore.CrowdConnectedDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrowdConnectedDelegate",
+                        "printedName": "CrowdConnectedCore.CrowdConnectedDelegate",
+                        "usr": "c:@M@CrowdConnectedCore@objc(pl)CrowdConnectedDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)delegate",
+                "mangledName": "$s18CrowdConnectedCore0aB0C8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CrowdConnectedCore.CrowdConnectedDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrowdConnectedDelegate",
+                        "printedName": "CrowdConnectedCore.CrowdConnectedDelegate",
+                        "usr": "c:@M@CrowdConnectedCore@objc(pl)CrowdConnectedDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)setDelegate:",
+                "mangledName": "$s18CrowdConnectedCore0aB0C8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s18CrowdConnectedCore0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrowdConnected",
+                "printedName": "CrowdConnectedCore.CrowdConnected",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(cpy)shared",
+            "mangledName": "$s18CrowdConnectedCore0aB0C6sharedACvpZ",
+            "moduleName": "CrowdConnectedCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrowdConnected",
+                    "printedName": "CrowdConnectedCore.CrowdConnected",
+                    "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(cm)shared",
+                "mangledName": "$s18CrowdConnectedCore0aB0C6sharedACvgZ",
+                "moduleName": "CrowdConnectedCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(appKey:token:secret:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)startWithAppKey:token:secret:completion:",
+            "mangledName": "$s18CrowdConnectedCore0aB0C5start6appKey5token6secret10completionySS_S2SySSSg_AItctF",
+            "moduleName": "CrowdConnectedCore",
+            "objc_name": "startWithAppKey:token:secret:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)stop",
+            "mangledName": "$s18CrowdConnectedCore0aB0C4stopyyF",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startNavigation",
+            "printedName": "startNavigation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)startNavigation",
+            "mangledName": "$s18CrowdConnectedCore0aB0C15startNavigationyyF",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopNavigation",
+            "printedName": "stopNavigation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)stopNavigation",
+            "mangledName": "$s18CrowdConnectedCore0aB0C14stopNavigationyyF",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isSuccessfullyRunning",
+            "printedName": "isSuccessfullyRunning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(py)isSuccessfullyRunning",
+            "mangledName": "$s18CrowdConnectedCore0aB0C21isSuccessfullyRunningSbvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)isSuccessfullyRunning",
+                "mangledName": "$s18CrowdConnectedCore0aB0C21isSuccessfullyRunningSbvg",
+                "moduleName": "CrowdConnectedCore",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isNavigationRunning",
+            "printedName": "isNavigationRunning",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(py)isNavigationRunning",
+            "mangledName": "$s18CrowdConnectedCore0aB0C19isNavigationRunningSbvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)isNavigationRunning",
+                "mangledName": "$s18CrowdConnectedCore0aB0C19isNavigationRunningSbvg",
+                "moduleName": "CrowdConnectedCore",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setAlias",
+            "printedName": "setAlias(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)setAliasWithKey:value:",
+            "mangledName": "$s18CrowdConnectedCore0aB0C8setAlias3key5valueySS_SStF",
+            "moduleName": "CrowdConnectedCore",
+            "objc_name": "setAliasWithKey:value:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activateSDKBackgroundRefresh",
+            "printedName": "activateSDKBackgroundRefresh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)activateSDKBackgroundRefresh",
+            "mangledName": "$s18CrowdConnectedCore0aB0C28activateSDKBackgroundRefreshyyF",
+            "moduleName": "CrowdConnectedCore",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scheduleRefresh",
+            "printedName": "scheduleRefresh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)scheduleRefresh",
+            "mangledName": "$s18CrowdConnectedCore0aB0C15scheduleRefreshyyF",
+            "moduleName": "CrowdConnectedCore",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected",
+        "mangledName": "$s18CrowdConnectedCore0aB0C",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PixelCoordinates",
+        "printedName": "PixelCoordinates",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "xPixels",
+            "printedName": "xPixels",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates(py)xPixels",
+            "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC7xPixelsSdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates(im)xPixels",
+                "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC7xPixelsSdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates(im)setXPixels:",
+                "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC7xPixelsSdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore16PixelCoordinatesC7xPixelsSdvM",
+                "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC7xPixelsSdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "yPixels",
+            "printedName": "yPixels",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates(py)yPixels",
+            "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC7yPixelsSdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates(im)yPixels",
+                "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC7yPixelsSdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates(im)setYPixels:",
+                "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC7yPixelsSdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore16PixelCoordinatesC7yPixelsSdvM",
+                "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC7yPixelsSdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PixelCoordinates",
+                "printedName": "CrowdConnectedCore.PixelCoordinates",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates(im)init",
+            "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesCACycfc",
+            "moduleName": "CrowdConnectedCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates",
+        "mangledName": "$s18CrowdConnectedCore16PixelCoordinatesC",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Location",
+        "printedName": "Location",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "xMeters",
+            "printedName": "xMeters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)xMeters",
+            "mangledName": "$s18CrowdConnectedCore8LocationC7xMetersSdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)xMeters",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7xMetersSdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setXMeters:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7xMetersSdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC7xMetersSdvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7xMetersSdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "yMeters",
+            "printedName": "yMeters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)yMeters",
+            "mangledName": "$s18CrowdConnectedCore8LocationC7yMetersSdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)yMeters",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7yMetersSdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setYMeters:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7yMetersSdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC7yMetersSdvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7yMetersSdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)latitude",
+            "mangledName": "$s18CrowdConnectedCore8LocationC8latitudeSdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)latitude",
+                "mangledName": "$s18CrowdConnectedCore8LocationC8latitudeSdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setLatitude:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC8latitudeSdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC8latitudeSdvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC8latitudeSdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)longitude",
+            "mangledName": "$s18CrowdConnectedCore8LocationC9longitudeSdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)longitude",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9longitudeSdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setLongitude:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9longitudeSdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC9longitudeSdvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9longitudeSdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pixelCoordinates",
+            "printedName": "pixelCoordinates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CrowdConnectedCore.PixelCoordinates?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PixelCoordinates",
+                    "printedName": "CrowdConnectedCore.PixelCoordinates",
+                    "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)pixelCoordinates",
+            "mangledName": "$s18CrowdConnectedCore8LocationC16pixelCoordinatesAA05PixelF0CSgvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CrowdConnectedCore.PixelCoordinates?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PixelCoordinates",
+                        "printedName": "CrowdConnectedCore.PixelCoordinates",
+                        "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)pixelCoordinates",
+                "mangledName": "$s18CrowdConnectedCore8LocationC16pixelCoordinatesAA05PixelF0CSgvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CrowdConnectedCore.PixelCoordinates?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PixelCoordinates",
+                        "printedName": "CrowdConnectedCore.PixelCoordinates",
+                        "usr": "c:@M@CrowdConnectedCore@objc(cs)PixelCoordinates"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setPixelCoordinates:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC16pixelCoordinatesAA05PixelF0CSgvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC16pixelCoordinatesAA05PixelF0CSgvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC16pixelCoordinatesAA05PixelF0CSgvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "floor",
+            "printedName": "floor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)floor",
+            "mangledName": "$s18CrowdConnectedCore8LocationC5floorSivp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)floor",
+                "mangledName": "$s18CrowdConnectedCore8LocationC5floorSivg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setFloor:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC5floorSivs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC5floorSivM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC5floorSivM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "surfaceID",
+            "printedName": "surfaceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)surfaceID",
+            "mangledName": "$s18CrowdConnectedCore8LocationC9surfaceIDSSvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)surfaceID",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9surfaceIDSSvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setSurfaceID:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9surfaceIDSSvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC9surfaceIDSSvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9surfaceIDSSvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)timestamp",
+            "mangledName": "$s18CrowdConnectedCore8LocationC9timestamps5Int64Vvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)timestamp",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9timestamps5Int64Vvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setTimestamp:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9timestamps5Int64Vvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC9timestamps5Int64VvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC9timestamps5Int64VvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)type",
+            "mangledName": "$s18CrowdConnectedCore8LocationC4typeSSvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)type",
+                "mangledName": "$s18CrowdConnectedCore8LocationC4typeSSvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setType:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC4typeSSvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC4typeSSvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC4typeSSvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Location",
+                "printedName": "CrowdConnectedCore.Location",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)init",
+            "mangledName": "$s18CrowdConnectedCore8LocationCACycfc",
+            "moduleName": "CrowdConnectedCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CrowdConnectedCore@objc(cs)Location",
+        "mangledName": "$s18CrowdConnectedCore8LocationC",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite3",
+        "printedName": "SQLite3",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrowdConnectedDelegate",
+        "printedName": "CrowdConnectedDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didUpdateLocation",
+            "printedName": "didUpdateLocation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CrowdConnectedCore.Location]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Location",
+                    "printedName": "CrowdConnectedCore.Location",
+                    "usr": "c:@M@CrowdConnectedCore@objc(cs)Location"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CrowdConnectedCore@objc(pl)CrowdConnectedDelegate(im)didUpdateLocation:",
+            "mangledName": "$s18CrowdConnectedCore0aB8DelegateP17didUpdateLocationyySayAA0G0CGF",
+            "moduleName": "CrowdConnectedCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : CrowdConnectedCore.CrowdConnectedDelegate>",
+            "sugared_genericSig": "<Self where Self : CrowdConnectedCore.CrowdConnectedDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@CrowdConnectedCore@objc(pl)CrowdConnectedDelegate",
+        "mangledName": "$s18CrowdConnectedCore0aB8DelegateP",
+        "moduleName": "CrowdConnectedCore",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Network\/TimedRequestExecutor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/AuthenticationSession.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 44,
+      "value": "\"CrowdConnected.Session.Username.StorageKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/AuthenticationSession.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 44,
+      "value": "\"CrowdConnected.Session.Password.StorageKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateStore.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 40,
+      "value": "\"CrowdConnected.LibraryState.StorageKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateStore.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 10,
+      "value": "\"stateKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateStore.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 18,
+      "value": "\"locationValueKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateStore.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 14,
+      "value": "\"timestampKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 349,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 356,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 53,
+      "value": "\"aegqfgfsvlenp7oc77et8f9fftat1h4phg3j30k02c5t6tiikju\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 59,
+      "value": "\"Update access token to \""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 784,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 12,
+      "value": "\"CrowdConnectedCore.CognitoLogin\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/LibraryVersionResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 45,
+      "value": "\"CrowdConnected.lastConfiguredBuildNumberKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Aliases\/AliasesManager.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 33,
+      "value": "\"CrowdConnected.Alias.StorageKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/DatabaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 38,
+      "value": "\"crowdconnected.database.serial-queue\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/DatabaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 45,
+      "value": "\"crowdconnected.database.buffer.serial-queue\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/DatabaseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 889,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 407,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 474,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 516,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 584,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 819,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/LibraryState\/LibraryStateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1026,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
+      "kind": "StringLiteral",
+      "offset": 897,
+      "length": 38,
+      "value": "\"com.crowdconnected.v3.libraryrefresh\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
+      "kind": "BooleanLiteral",
+      "offset": 970,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1026,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/LogsMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 675,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/LogsMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 680,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/LogsMonitor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 136,
+      "length": 29,
+      "value": "\"BEGIN IMMEDIATE TRANSACTION\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 20,
+      "value": "\"COMMIT TRANSACTION\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 20,
+      "value": "\"BeaconObservations\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 18,
+      "value": "\"StepObservations\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 22,
+      "value": "\"PositionObservations\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 10,
+      "value": "\"Settings\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 9,
+      "value": "\"Beacons\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 10,
+      "value": "\"Surfaces\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 7,
+      "value": "\"Zones\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 153,
+      "value": "\"CREATE TABLE IF NOT EXISTS \""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 1,
+      "value": "\"(\nID INTEGER PRIMARY KEY AUTOINCREMENT,\nRECORD TEXT);\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 917,
+      "length": 151,
+      "value": "\"CREATE TABLE IF NOT EXISTS \""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 1,
+      "value": "\"(\nID INTEGER PRIMARY KEY AUTOINCREMENT,\nRECORD TEXT);\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 155,
+      "value": "\"CREATE TABLE IF NOT EXISTS \""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 1,
+      "value": "\"(\nID INTEGER PRIMARY KEY AUTOINCREMENT,\nRECORD TEXT);\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1325,
+      "length": 143,
+      "value": "\"CREATE TABLE IF NOT EXISTS \""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 1,
+      "value": "\"(\nID INTEGER PRIMARY KEY AUTOINCREMENT,\nRECORD TEXT);\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 142,
+      "value": "\"CREATE TABLE IF NOT EXISTS \""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1585,
+      "length": 1,
+      "value": "\"(\nID INTEGER PRIMARY KEY AUTOINCREMENT,\nRECORD TEXT);\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1699,
+      "length": 143,
+      "value": "\"CREATE TABLE IF NOT EXISTS \""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 1,
+      "value": "\"(\nID INTEGER PRIMARY KEY AUTOINCREMENT,\nRECORD TEXT);\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1884,
+      "length": 140,
+      "value": "\"CREATE TABLE IF NOT EXISTS \""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Database\/PersistentDatabase\/PersistentDatabase+Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1955,
+      "length": 1,
+      "value": "\"(\nID INTEGER PRIMARY KEY AUTOINCREMENT,\nRECORD TEXT);\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/ModulesManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1350,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/ModulesManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/ModulesManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1430,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1293,
+      "length": 79,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1319,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1345,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 484,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 489,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 547,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 552,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 638,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 707,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 786,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 793,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 860,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 867,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 945,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1015,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1101,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1106,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1111,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2712,
+      "length": 11,
+      "value": "\"iPhone1,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2744,
+      "length": 11,
+      "value": "\"iPhone1,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2776,
+      "length": 11,
+      "value": "\"iPhone2,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2808,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2840,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2872,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2904,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2936,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2968,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3000,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3032,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3064,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3097,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3129,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3161,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3193,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3225,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3258,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3290,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3322,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3354,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3388,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3422,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3456,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3490,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3525,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3559,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3593,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3627,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3661,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3695,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3730,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3764,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3798,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3832,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3867,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3901,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3935,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3969,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4004,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4038,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4072,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4106,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4153,
+      "length": 9,
+      "value": "\"iPod1,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4181,
+      "length": 9,
+      "value": "\"iPod2,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4209,
+      "length": 9,
+      "value": "\"iPod3,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4237,
+      "length": 9,
+      "value": "\"iPod4,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4265,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4293,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4321,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4365,
+      "length": 9,
+      "value": "\"iPad1,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4393,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4421,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4449,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4477,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4505,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4533,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4561,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4589,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4617,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4645,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4673,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4701,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4729,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4757,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4785,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4813,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4869,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4897,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4925,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4953,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4981,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5009,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5037,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5065,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5093,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5121,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5149,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5177,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5207,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5237,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5266,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5294,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5322,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5350,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5378,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5406,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5435,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5463,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5491,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5519,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5547,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5575,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5603,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5631,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5659,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5688,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5718,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5748,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5779,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5809,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5839,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5869,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5900,
+      "length": 10,
+      "value": "\"iPad13,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5930,
+      "length": 10,
+      "value": "\"iPad13,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5960,
+      "length": 10,
+      "value": "\"iPad13,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5990,
+      "length": 10,
+      "value": "\"iPad13,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6020,
+      "length": 10,
+      "value": "\"iPad13,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6050,
+      "length": 10,
+      "value": "\"iPad13,9\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6081,
+      "length": 11,
+      "value": "\"iPad13,10\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6113,
+      "length": 11,
+      "value": "\"iPad13,11\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6145,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6175,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6223,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6248,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6274,
+      "length": 7,
+      "value": "\"arm64\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2712,
+      "length": 11,
+      "value": "\"iPhone1,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2744,
+      "length": 11,
+      "value": "\"iPhone1,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2776,
+      "length": 11,
+      "value": "\"iPhone2,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2808,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2840,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2872,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2904,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2936,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 2968,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3000,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3032,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3064,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3097,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3129,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3161,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3193,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3225,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3258,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3290,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3322,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3354,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3388,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3422,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3456,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3490,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3525,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3559,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3593,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3627,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3661,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3695,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3730,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3764,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3798,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3832,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3867,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3901,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3935,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 3969,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4004,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4038,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4072,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4106,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4153,
+      "length": 9,
+      "value": "\"iPod1,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4181,
+      "length": 9,
+      "value": "\"iPod2,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4209,
+      "length": 9,
+      "value": "\"iPod3,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4237,
+      "length": 9,
+      "value": "\"iPod4,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4265,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4293,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4321,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4365,
+      "length": 9,
+      "value": "\"iPad1,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4393,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4421,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4449,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4477,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4505,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4533,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4561,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4589,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4617,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4645,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4673,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4701,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4729,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4757,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4785,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4813,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4869,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4897,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4925,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4953,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 4981,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5009,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5037,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5065,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5093,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5121,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5149,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5177,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5207,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5237,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5266,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5294,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5322,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5350,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5378,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5406,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5435,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5463,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5491,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5519,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5547,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5575,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5603,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5631,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5659,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5688,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5718,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5748,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5779,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5809,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5839,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5869,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5900,
+      "length": 10,
+      "value": "\"iPad13,4\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5930,
+      "length": 10,
+      "value": "\"iPad13,5\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5960,
+      "length": 10,
+      "value": "\"iPad13,6\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 5990,
+      "length": 10,
+      "value": "\"iPad13,7\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6020,
+      "length": 10,
+      "value": "\"iPad13,8\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6050,
+      "length": 10,
+      "value": "\"iPad13,9\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6081,
+      "length": 11,
+      "value": "\"iPad13,10\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6113,
+      "length": 11,
+      "value": "\"iPad13,11\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6145,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6175,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6223,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6248,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DevicePlatform.swift",
+      "kind": "StringLiteral",
+      "offset": 6274,
+      "length": 7,
+      "value": "\"arm64\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Interface\/Location.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 16,
+      "value": "\"CrowdConnectedCore.PixelCoordinates\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Interface\/Location.swift",
+      "kind": "StringLiteral",
+      "offset": 704,
+      "length": 8,
+      "value": "\"CrowdConnectedCore.Location\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/DeviceStore.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 44,
+      "value": "\"CrowdConnected.Session.DeviceID.StorageKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/DeviceStore.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 10,
+      "value": "\"deviceId\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/DeviceStore.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 8,
+      "value": "\"appKey\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 7,
+      "value": "\"zones\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 10,
+      "value": "\"settings\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 9,
+      "value": "\"beacons\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 10,
+      "value": "\"surfaces\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
+      "length": 14,
+      "value": "\"registration\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 14,
+      "value": "\"device-alias\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 886,
+      "length": 21,
+      "value": "\"device-alias\/cached\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 18,
+      "value": "\"capabilities\/ios\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 973,
+      "length": 13,
+      "value": "\"mobile-logs\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataPublisher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Network\/APIRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 38,
+      "value": "\"https:\/\/api.crowdconnected.com\/prod\/\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Network\/APIRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 17,
+      "value": "\"x-cognito-token\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/LocationAuthorizationStatusProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 733,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/LocationAuthorizationStatusProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 35,
+      "value": "\"CrowdConnectedCore.LocationAuthorizationStatusProvider\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/NetworkScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1639,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/AWSDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 21,
+      "value": "\"us-east-1_xsD5yIcIS\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/AWSDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 28,
+      "value": "\"31iqmf255m1dai4bpqq3an55pg\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/AWSDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 10,
+      "value": "\"UserPool\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DynamicIntervalsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 38,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DynamicIntervalsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 5,
+      "value": "\"Queue\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DynamicIntervalsManager.swift",
+      "kind": "Array",
+      "offset": 1485,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}
