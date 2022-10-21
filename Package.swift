@@ -11,12 +11,10 @@ let package = Package(
                  targets: ["CrowdConnectedCoreTarget"])
     ],
     dependencies: [
-        .package(name: "CrowdConnectedShared",
-                 url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
-                 from: "1.3.2"),
-        .package(name: "AWSiOSSDKV2",
-                 url: "https://github.com/aws-amplify/aws-sdk-ios-spm",
-                 from: "2.24.1")
+        .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
+                 from: "1.4.0"),
+        .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm",
+                 from: "2.28.0")
     ],
     targets: [
         .target(name: "CrowdConnectedCoreTarget",
@@ -27,10 +25,11 @@ let package = Package(
         .target(name: "CrowdConnectedCoreWrapper",
                 dependencies: [
                     .target(name: "CrowdConnectedCore"),
-                    .product(name: "CrowdConnectedShared", package: "CrowdConnectedShared"),
-                    .product(name: "AWSCognitoIdentityProvider", package: "AWSiOSSDKV2"),
-                    .product(name: "AWSCognitoIdentityProviderASF", package: "AWSiOSSDKV2"),
-                    .product(name: "AWSCore", package: "AWSiOSSDKV2")
+                    .product(name: "CrowdConnectedShared", package: "crowdconnected-shared-ios"),
+                    .product(name: "AWSCognitoIdentityProvider", package: "aws-sdk-ios-spm"),
+                    .product(name: "AWSCognitoIdentityProviderASF", package: "aws-sdk-ios-spm"),
+                    .product(name: "AWSCore", package: "aws-sdk-ios-spm"),
+                    .product(name: "AWSKinesis", package: "aws-sdk-ios-spm")
                 ],
                 path: "CrowdConnectedCoreWrapper"),
         .binaryTarget(name: "CrowdConnectedCore",
