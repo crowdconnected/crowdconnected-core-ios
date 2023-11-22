@@ -1,7 +1,7 @@
 framework module CrowdConnectedCore {
   umbrella header "CrowdConnectedCore.h"
-
   export *
+
   module * { export * }
 }
 

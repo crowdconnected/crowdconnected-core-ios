@@ -3177,14 +3177,14 @@
       "kind": "StringLiteral",
       "offset": 242,
       "length": 7,
-      "value": "\"1.6.0\""
+      "value": "\"1.6.1\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/SDKVersionResolver.swift",
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 3,
-      "value": "191"
+      "value": "200"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SettingsUpdater.swift",
@@ -3847,56 +3847,56 @@
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SDKState\/SDKStateManager.swift",
       "kind": "StringLiteral",
-      "offset": 13498,
+      "offset": 13468,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SDKState\/SDKStateManager.swift",
       "kind": "StringLiteral",
-      "offset": 15514,
+      "offset": 15484,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SDKState\/SDKStateManager.swift",
       "kind": "StringLiteral",
-      "offset": 15857,
+      "offset": 15827,
       "length": 16,
       "value": "\"foregroundOnly\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SDKState\/SDKStateManager.swift",
       "kind": "StringLiteral",
-      "offset": 16175,
+      "offset": 16145,
       "length": 10,
       "value": "\"regionId\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SDKState\/SDKStateManager.swift",
       "kind": "StringLiteral",
-      "offset": 16467,
+      "offset": 16437,
       "length": 10,
       "value": "\"regionId\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SDKState\/SDKStateManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16658,
+      "offset": 16595,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SDKState\/SDKStateManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17060,
+      "offset": 16964,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SDKState\/SDKStateManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17949,
+      "offset": 17838,
       "length": 5,
       "value": "false"
     },
