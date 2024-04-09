@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
-                 from: "1.6.2"),
+                 from: "1.6.3"),
         .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm",
                  from: "2.28.0")
     ],
@@ -21,7 +21,8 @@ let package = Package(
                 dependencies: [
                     .target(name: "CrowdConnectedCoreWrapper")
                 ],
-                path: "CrowdConnectedCoreWrap"),
+                path: "CrowdConnectedCoreWrap",
+                resources: [.copy("Resources/PrivacyInfo.xcprivacy")]),
         .target(name: "CrowdConnectedCoreWrapper",
                 dependencies: [
                     .target(name: "CrowdConnectedCore"),
@@ -31,7 +32,8 @@ let package = Package(
                     .product(name: "AWSCore", package: "aws-sdk-ios-spm"),
                     .product(name: "AWSKinesis", package: "aws-sdk-ios-spm")
                 ],
-                path: "CrowdConnectedCoreWrapper"),
+                path: "CrowdConnectedCoreWrapper",
+                resources: [.copy("Resources/PrivacyInfo.xcprivacy")]),
         .binaryTarget(name: "CrowdConnectedCore",
                       path: "CrowdConnectedCore.xcframework"
         )
