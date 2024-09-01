@@ -2295,6 +2295,471 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "maxRSSI",
+            "printedName": "maxRSSI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)maxRSSI",
+            "mangledName": "$s18CrowdConnectedCore8LocationC7maxRSSISdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)maxRSSI",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7maxRSSISdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setMaxRSSI:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7maxRSSISdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC7maxRSSISdvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC7maxRSSISdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "beaconXForMaxRSSI",
+            "printedName": "beaconXForMaxRSSI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)beaconXForMaxRSSI",
+            "mangledName": "$s18CrowdConnectedCore8LocationC17beaconXForMaxRSSISdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)beaconXForMaxRSSI",
+                "mangledName": "$s18CrowdConnectedCore8LocationC17beaconXForMaxRSSISdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setBeaconXForMaxRSSI:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC17beaconXForMaxRSSISdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC17beaconXForMaxRSSISdvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC17beaconXForMaxRSSISdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "beaconYForMaxRSSI",
+            "printedName": "beaconYForMaxRSSI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)beaconYForMaxRSSI",
+            "mangledName": "$s18CrowdConnectedCore8LocationC17beaconYForMaxRSSISdvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)beaconYForMaxRSSI",
+                "mangledName": "$s18CrowdConnectedCore8LocationC17beaconYForMaxRSSISdvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setBeaconYForMaxRSSI:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC17beaconYForMaxRSSISdvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC17beaconYForMaxRSSISdvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC17beaconYForMaxRSSISdvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "surfaceIDForMaxRSSI",
+            "printedName": "surfaceIDForMaxRSSI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)surfaceIDForMaxRSSI",
+            "mangledName": "$s18CrowdConnectedCore8LocationC19surfaceIDForMaxRSSISSvp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)surfaceIDForMaxRSSI",
+                "mangledName": "$s18CrowdConnectedCore8LocationC19surfaceIDForMaxRSSISSvg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setSurfaceIDForMaxRSSI:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC19surfaceIDForMaxRSSISSvs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC19surfaceIDForMaxRSSISSvM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC19surfaceIDForMaxRSSISSvM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "observedSurfaces",
+            "printedName": "observedSurfaces",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(py)observedSurfaces",
+            "mangledName": "$s18CrowdConnectedCore8LocationC16observedSurfacesSivp",
+            "moduleName": "CrowdConnectedCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)observedSurfaces",
+                "mangledName": "$s18CrowdConnectedCore8LocationC16observedSurfacesSivg",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CrowdConnectedCore@objc(cs)Location(im)setObservedSurfaces:",
+                "mangledName": "$s18CrowdConnectedCore8LocationC16observedSurfacesSivs",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CrowdConnectedCore8LocationC16observedSurfacesSivM",
+                "mangledName": "$s18CrowdConnectedCore8LocationC16observedSurfacesSivM",
+                "moduleName": "CrowdConnectedCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -3270,14 +3735,14 @@
       "kind": "StringLiteral",
       "offset": 242,
       "length": 7,
-      "value": "\"1.6.6\""
+      "value": "\"1.7.0\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/SDKVersionResolver.swift",
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 3,
-      "value": "209"
+      "value": "211"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SettingsUpdater.swift",
@@ -8819,189 +9284,371 @@
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 872,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 864,
+      "offset": 915,
       "length": 2,
-      "value": "13"
+      "value": "18"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 935,
+      "offset": 986,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 990,
+      "offset": 1041,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1045,
+      "offset": 1096,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1101,
+      "offset": 1152,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1158,
+      "offset": 1209,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1214,
+      "offset": 1265,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1264,
+      "offset": 1315,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1317,
+      "offset": 1368,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 1438,
-      "length": 143,
-      "value": "\"Received position data does not has expected struct (type,x,y,lat,lng,xPixels,yPixels,surfaceId,calcTime,timestamp,floor,quality,sequenceNo).\""
+      "offset": 1501,
+      "length": 224,
+      "value": "\"Received position data does not has expected struct (type,x,y,lat,lng,xPixels,yPixels,surfaceId,calcTime,timestamp,floor,quality,maxRSSI,beaconXForMaxRSSI,beaconYForMaxRSSI,surfaceIDForMaxRSSI,observedSurfaces,sequenceNo).\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1800,
+      "offset": 1944,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1945,
+      "offset": 2109,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2220,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "FloatLiteral",
+      "offset": 2228,
+      "length": 7,
+      "value": "-1000.0"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2290,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2298,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2354,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2362,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2414,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2422,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2480,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 2495,
+      "length": 38,
+      "value": "\"00000000-0000-0000-0000-000000000000\""
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2547,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4140,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1997,
+      "offset": 4188,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2151,
+      "offset": 4544,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4591,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4638,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4687,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4733,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4778,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4822,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4866,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4910,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4954,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5008,
       "length": 1,
-      "value": "7"
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5070,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5132,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5197,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5259,
+      "length": 2,
+      "value": "12"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 2527,
+      "offset": 5312,
       "length": 5,
       "value": "\"use\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 2535,
+      "offset": 5320,
       "length": 9,
       "value": "\"discard\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2550,
-      "length": 1,
-      "value": "8"
+      "offset": 5335,
+      "length": 2,
+      "value": "13"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 3432,
+      "offset": 5795,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 3598,
+      "offset": 5961,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3854,
+      "offset": 6217,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 3944,
+      "offset": 6307,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4029,
+      "offset": 6392,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4178,
+      "offset": 6541,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 4268,
+      "offset": 6631,
       "length": 5,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4354,
+      "offset": 6717,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/PositionsProcessor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4399,
+      "offset": 6762,
       "length": 5,
       "value": "false"
     },

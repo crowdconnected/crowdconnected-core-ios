@@ -12,9 +12,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
-                 from: "1.6.6"),
+                 from: "1.7.0"),
         .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm",
-                 from: "2.28.0")
+                 from: "2.37.0")
     ],
     targets: [
         .target(name: "CrowdConnectedCoreTarget",

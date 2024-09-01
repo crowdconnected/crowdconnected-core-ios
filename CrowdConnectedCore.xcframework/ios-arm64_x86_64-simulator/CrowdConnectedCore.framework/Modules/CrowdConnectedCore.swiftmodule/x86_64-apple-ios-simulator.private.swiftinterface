@@ -54,6 +54,11 @@ import _SwiftConcurrencyShims
   @objc public var timestamp: Swift.Int64
   @objc public var type: Swift.String
   @objc public var quality: Swift.Int
+  @objc public var maxRSSI: Swift.Double
+  @objc public var beaconXForMaxRSSI: Swift.Double
+  @objc public var beaconYForMaxRSSI: Swift.Double
+  @objc public var surfaceIDForMaxRSSI: Swift.String
+  @objc public var observedSurfaces: Swift.Int
   @objc deinit
 }
 @objc public protocol CrowdConnectedDelegate {

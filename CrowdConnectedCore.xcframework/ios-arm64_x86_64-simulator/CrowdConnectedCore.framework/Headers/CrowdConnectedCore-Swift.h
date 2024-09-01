@@ -383,6 +383,16 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore8Location")
 @property (nonatomic, copy) NSString * _Nonnull type;
 /// The quality of the location, with values from [0,1,2], where 2 represents the best accuracy.
 @property (nonatomic) NSInteger quality;
+/// For IPS location type only. The maximum RSSI value recently observed. Defaults to <code>-1000</code>.
+@property (nonatomic) double maxRSSI;
+/// For IPS location type only. The x-coordinate of the beacon from which the observation with the max RSSI value. Defaults to <code>0</code>.
+@property (nonatomic) double beaconXForMaxRSSI;
+/// For IPS location type only. The y-coordinate of the beacon from which the observation with the max RSSI value. Defaults to <code>0</code>.
+@property (nonatomic) double beaconYForMaxRSSI;
+/// For IPS location type only. The surface ID of the beacon from which the observation with the max RSSI value. Defaults to <code>00000000-0000-0000-0000-000000000000</code>.
+@property (nonatomic, copy) NSString * _Nonnull surfaceIDForMaxRSSI;
+/// For IPS location type only. The number of surfaces that we got observation(s) from at least one beacon on the surface.
+@property (nonatomic) NSInteger observedSurfaces;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -793,6 +803,16 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore8Location")
 @property (nonatomic, copy) NSString * _Nonnull type;
 /// The quality of the location, with values from [0,1,2], where 2 represents the best accuracy.
 @property (nonatomic) NSInteger quality;
+/// For IPS location type only. The maximum RSSI value recently observed. Defaults to <code>-1000</code>.
+@property (nonatomic) double maxRSSI;
+/// For IPS location type only. The x-coordinate of the beacon from which the observation with the max RSSI value. Defaults to <code>0</code>.
+@property (nonatomic) double beaconXForMaxRSSI;
+/// For IPS location type only. The y-coordinate of the beacon from which the observation with the max RSSI value. Defaults to <code>0</code>.
+@property (nonatomic) double beaconYForMaxRSSI;
+/// For IPS location type only. The surface ID of the beacon from which the observation with the max RSSI value. Defaults to <code>00000000-0000-0000-0000-000000000000</code>.
+@property (nonatomic, copy) NSString * _Nonnull surfaceIDForMaxRSSI;
+/// For IPS location type only. The number of surfaces that we got observation(s) from at least one beacon on the surface.
+@property (nonatomic) NSInteger observedSurfaces;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
