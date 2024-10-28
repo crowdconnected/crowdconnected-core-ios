@@ -301,6 +301,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @protocol CrowdConnectedDelegate;
 @class NSString;
+@class SDKCredentials;
+enum LocationTrackingMode : NSInteger;
+enum CrowdConnectedValidationResult : NSInteger;
 
 /// The entry point class of the <code>CrowdConnected</code> SDK.
 SWIFT_CLASS("_TtC18CrowdConnectedCore14CrowdConnected")
@@ -313,31 +316,23 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore14CrowdConnected")
 /// Used for SDK configurations and communication.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CrowdConnected * _Nonnull shared;)
 + (CrowdConnected * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// The associated CrowdConnected device ID.
+/// Available after the SDK has been started successfully.
+@property (nonatomic, copy) NSString * _Nullable deviceID;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Start the SDK.
-/// \param appKey The unique app key provided by CrowdConnected.
+/// \param credentials The unique credentials provided by CrowdConnected.
 ///
-/// \param token The token provided by CrowdConnected.
+/// \param trackingMode The tracking mode in which the SDK to operate.
 ///
-/// \param secret The secret key provided by CrowdConnected.
+/// \param completion The result of the SDK start operation.
+/// Returns a <code>DeviceID</code> as the first parameter if everything is set up correctly.
+/// Returns the validation result for app configuration as the second parameter. Can be used to identify any issues with the setup.
 ///
-/// \param completion A completion representing the success or failure of the SDK start.
-/// The format of the completion is (deviceID: String?, error: String?).
-/// If the SDK starts correctly with the provided credentials, a non-nil device ID will be returned.
-/// If the SDK fails to start, a non-nil error will be returned.
-///
-- (void)startWithAppKey:(NSString * _Nonnull)appKey token:(NSString * _Nonnull)token secret:(NSString * _Nonnull)secret completion:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable))completion;
+- (void)startWithCredentials:(SDKCredentials * _Nonnull)credentials trackingMode:(enum LocationTrackingMode)trackingMode completion:(void (^ _Nonnull)(NSString * _Nullable, enum CrowdConnectedValidationResult))completion;
 /// Stop the SDK and all its processes.
 - (void)stop;
-/// Initiate a navigation session.
-- (void)startNavigation;
-/// End the current navigation session.
-- (void)stopNavigation;
-/// Returns <code>true</code> if the SDK has established a successful connection with the server and has started its functionality. Returns <code>false</code> otherwise.
-@property (nonatomic, readonly) BOOL isSuccessfullyRunning;
-/// Returns <code>true</code> if the navigation feature is running. Returns <code>false</code> otherwise.
-@property (nonatomic, readonly) BOOL isNavigationRunning;
 /// Set and persist an alias for the current device.
 - (void)setAliasWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
 /// Activate automatic background SDK refreshes.
@@ -357,6 +352,25 @@ SWIFT_PROTOCOL("_TtP18CrowdConnectedCore22CrowdConnectedDelegate_")
 ///
 - (void)didUpdateLocation:(NSArray<Location *> * _Nonnull)locations;
 @end
+
+/// Validation result for SDK configuration.
+/// For a correct configuration, the value is <code>success</code>.
+/// Any other value represents an issue with the configuration and more details are in the <code>description</code> property.
+typedef SWIFT_ENUM(NSInteger, CrowdConnectedValidationResult, open) {
+  CrowdConnectedValidationResultSuccess = 0,
+  CrowdConnectedValidationResultAlreadyRunning = 1,
+  CrowdConnectedValidationResultMissingAppKey = 2,
+  CrowdConnectedValidationResultMissingToken = 3,
+  CrowdConnectedValidationResultMissingSecret = 4,
+  CrowdConnectedValidationResultDeviceRegistrationFailed = 5,
+  CrowdConnectedValidationResultNoModulesAreActive = 6,
+  CrowdConnectedValidationResultMissingBluetoothPermissionItem = 7,
+  CrowdConnectedValidationResultMissingWhileInUseLocationPermissionItem = 8,
+  CrowdConnectedValidationResultMissingAlwaysLocationPermissionItem = 9,
+  CrowdConnectedValidationResultMissingLocationBackgroundModeItem = 10,
+  CrowdConnectedValidationResultMissingBluetoothBackgroundModeItem = 11,
+};
+static NSString * _Nonnull const CrowdConnectedValidationResultDomain = @"CrowdConnectedCore.CrowdConnectedValidationResult";
 
 @class PixelCoordinates;
 
@@ -397,6 +411,12 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore8Location")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+/// Setting used to determine whether the SDK would track location data while the app is in the background.
+typedef SWIFT_ENUM(NSInteger, LocationTrackingMode, open) {
+  LocationTrackingModeForegroundOnly = 0,
+  LocationTrackingModeForegroundAndBackground = 1,
+};
+
 
 /// An <code>NSObject</code> representing the location of the device in pixel coordinates calculated by the SDK.
 SWIFT_CLASS("_TtC18CrowdConnectedCore16PixelCoordinates")
@@ -405,6 +425,21 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore16PixelCoordinates")
 @property (nonatomic) double xPixels;
 /// The y coordinate of the location in pixels.
 @property (nonatomic) double yPixels;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Grouped credentials used to authenticate in the CrowdConnected SDK.
+SWIFT_CLASS("_TtC18CrowdConnectedCore14SDKCredentials")
+@interface SDKCredentials : NSObject
+/// \param appKey The unique app key provided by CrowdConnected.
+///
+/// \param token The token provided by CrowdConnected.
+///
+/// \param secret The secret key provided by CrowdConnected.
+///
+- (nonnull instancetype)initWithAppKey:(NSString * _Nonnull)appKey token:(NSString * _Nonnull)token secret:(NSString * _Nonnull)secret OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -721,6 +756,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @protocol CrowdConnectedDelegate;
 @class NSString;
+@class SDKCredentials;
+enum LocationTrackingMode : NSInteger;
+enum CrowdConnectedValidationResult : NSInteger;
 
 /// The entry point class of the <code>CrowdConnected</code> SDK.
 SWIFT_CLASS("_TtC18CrowdConnectedCore14CrowdConnected")
@@ -733,31 +771,23 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore14CrowdConnected")
 /// Used for SDK configurations and communication.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CrowdConnected * _Nonnull shared;)
 + (CrowdConnected * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// The associated CrowdConnected device ID.
+/// Available after the SDK has been started successfully.
+@property (nonatomic, copy) NSString * _Nullable deviceID;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Start the SDK.
-/// \param appKey The unique app key provided by CrowdConnected.
+/// \param credentials The unique credentials provided by CrowdConnected.
 ///
-/// \param token The token provided by CrowdConnected.
+/// \param trackingMode The tracking mode in which the SDK to operate.
 ///
-/// \param secret The secret key provided by CrowdConnected.
+/// \param completion The result of the SDK start operation.
+/// Returns a <code>DeviceID</code> as the first parameter if everything is set up correctly.
+/// Returns the validation result for app configuration as the second parameter. Can be used to identify any issues with the setup.
 ///
-/// \param completion A completion representing the success or failure of the SDK start.
-/// The format of the completion is (deviceID: String?, error: String?).
-/// If the SDK starts correctly with the provided credentials, a non-nil device ID will be returned.
-/// If the SDK fails to start, a non-nil error will be returned.
-///
-- (void)startWithAppKey:(NSString * _Nonnull)appKey token:(NSString * _Nonnull)token secret:(NSString * _Nonnull)secret completion:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable))completion;
+- (void)startWithCredentials:(SDKCredentials * _Nonnull)credentials trackingMode:(enum LocationTrackingMode)trackingMode completion:(void (^ _Nonnull)(NSString * _Nullable, enum CrowdConnectedValidationResult))completion;
 /// Stop the SDK and all its processes.
 - (void)stop;
-/// Initiate a navigation session.
-- (void)startNavigation;
-/// End the current navigation session.
-- (void)stopNavigation;
-/// Returns <code>true</code> if the SDK has established a successful connection with the server and has started its functionality. Returns <code>false</code> otherwise.
-@property (nonatomic, readonly) BOOL isSuccessfullyRunning;
-/// Returns <code>true</code> if the navigation feature is running. Returns <code>false</code> otherwise.
-@property (nonatomic, readonly) BOOL isNavigationRunning;
 /// Set and persist an alias for the current device.
 - (void)setAliasWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
 /// Activate automatic background SDK refreshes.
@@ -777,6 +807,25 @@ SWIFT_PROTOCOL("_TtP18CrowdConnectedCore22CrowdConnectedDelegate_")
 ///
 - (void)didUpdateLocation:(NSArray<Location *> * _Nonnull)locations;
 @end
+
+/// Validation result for SDK configuration.
+/// For a correct configuration, the value is <code>success</code>.
+/// Any other value represents an issue with the configuration and more details are in the <code>description</code> property.
+typedef SWIFT_ENUM(NSInteger, CrowdConnectedValidationResult, open) {
+  CrowdConnectedValidationResultSuccess = 0,
+  CrowdConnectedValidationResultAlreadyRunning = 1,
+  CrowdConnectedValidationResultMissingAppKey = 2,
+  CrowdConnectedValidationResultMissingToken = 3,
+  CrowdConnectedValidationResultMissingSecret = 4,
+  CrowdConnectedValidationResultDeviceRegistrationFailed = 5,
+  CrowdConnectedValidationResultNoModulesAreActive = 6,
+  CrowdConnectedValidationResultMissingBluetoothPermissionItem = 7,
+  CrowdConnectedValidationResultMissingWhileInUseLocationPermissionItem = 8,
+  CrowdConnectedValidationResultMissingAlwaysLocationPermissionItem = 9,
+  CrowdConnectedValidationResultMissingLocationBackgroundModeItem = 10,
+  CrowdConnectedValidationResultMissingBluetoothBackgroundModeItem = 11,
+};
+static NSString * _Nonnull const CrowdConnectedValidationResultDomain = @"CrowdConnectedCore.CrowdConnectedValidationResult";
 
 @class PixelCoordinates;
 
@@ -817,6 +866,12 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore8Location")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+/// Setting used to determine whether the SDK would track location data while the app is in the background.
+typedef SWIFT_ENUM(NSInteger, LocationTrackingMode, open) {
+  LocationTrackingModeForegroundOnly = 0,
+  LocationTrackingModeForegroundAndBackground = 1,
+};
+
 
 /// An <code>NSObject</code> representing the location of the device in pixel coordinates calculated by the SDK.
 SWIFT_CLASS("_TtC18CrowdConnectedCore16PixelCoordinates")
@@ -825,6 +880,21 @@ SWIFT_CLASS("_TtC18CrowdConnectedCore16PixelCoordinates")
 @property (nonatomic) double xPixels;
 /// The y coordinate of the location in pixels.
 @property (nonatomic) double yPixels;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Grouped credentials used to authenticate in the CrowdConnected SDK.
+SWIFT_CLASS("_TtC18CrowdConnectedCore14SDKCredentials")
+@interface SDKCredentials : NSObject
+/// \param appKey The unique app key provided by CrowdConnected.
+///
+/// \param token The token provided by CrowdConnected.
+///
+/// \param secret The secret key provided by CrowdConnected.
+///
+- (nonnull instancetype)initWithAppKey:(NSString * _Nonnull)appKey token:(NSString * _Nonnull)token secret:(NSString * _Nonnull)secret OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

@@ -1,36 +1,33 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CrowdConnectedCore
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CrowdConnectedCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AWSCognitoIdentity
 import AWSCognitoIdentityProvider
-import AWSCore
 import AWSKinesis
 import BackgroundTasks
 import SystemConfiguration.CaptiveNetwork
+import CommonCrypto
+import CoreBluetooth
 import CoreLocation
 @_exported import CrowdConnectedCore
 import CrowdConnectedShared
 import Foundation
 import SQLite3
+import SmithyIdentity
 import Swift
 import SystemConfiguration
 import UIKit
+import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CrowdConnected : ObjectiveC.NSObject {
   @objc weak public var delegate: (any CrowdConnectedCore.CrowdConnectedDelegate)?
   @objc public static let shared: CrowdConnectedCore.CrowdConnected
-  @objc public func start(appKey: Swift.String, token: Swift.String, secret: Swift.String, completion: @escaping (Swift.String?, Swift.String?) -> Swift.Void)
+  @objc public var deviceID: CrowdConnectedCore.DeviceID?
+  @objc public func start(credentials: CrowdConnectedCore.SDKCredentials, trackingMode: CrowdConnectedCore.LocationTrackingMode, completion: @escaping (CrowdConnectedCore.DeviceID?, CrowdConnectedCore.CrowdConnectedValidationResult) -> Swift.Void)
   @objc public func stop()
-  @objc public func startNavigation()
-  @objc public func stopNavigation()
-  @objc public var isSuccessfullyRunning: Swift.Bool {
-    @objc get
-  }
-  @objc public var isNavigationRunning: Swift.Bool {
-    @objc get
-  }
   @objc public func setAlias(key: Swift.String, value: Swift.String)
   @available(iOS 13.0, *)
   @objc public func activateSDKBackgroundRefresh()
@@ -61,6 +58,53 @@ import _SwiftConcurrencyShims
   @objc public var observedSurfaces: Swift.Int
   @objc deinit
 }
+@objc public enum LocationTrackingMode : Swift.Int {
+  case foregroundOnly = 0
+  case foregroundAndBackground = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class SDKCredentials : ObjectiveC.NSObject {
+  @objc public init(appKey: Swift.String, token: Swift.String, secret: Swift.String)
+  @objc deinit
+}
+public typealias DeviceID = Swift.String
+@objc public enum CrowdConnectedValidationResult : Swift.Int {
+  case success = 0
+  case alreadyRunning = 1
+  case missingAppKey = 2
+  case missingToken = 3
+  case missingSecret = 4
+  case deviceRegistrationFailed = 5
+  case noModulesAreActive = 6
+  case missingBluetoothPermissionItem = 7
+  case missingWhileInUseLocationPermissionItem = 8
+  case missingAlwaysLocationPermissionItem = 9
+  case missingLocationBackgroundModeItem = 10
+  case missingBluetoothBackgroundModeItem = 11
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension CrowdConnectedCore.CrowdConnectedValidationResult : Foundation.LocalizedError {
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+}
 @objc public protocol CrowdConnectedDelegate {
   @objc func didUpdateLocation(_ locations: [CrowdConnectedCore.Location])
 }
+extension CrowdConnectedCore.LocationTrackingMode : Swift.Equatable {}
+extension CrowdConnectedCore.LocationTrackingMode : Swift.Hashable {}
+extension CrowdConnectedCore.LocationTrackingMode : Swift.RawRepresentable {}
+extension CrowdConnectedCore.CrowdConnectedValidationResult : Swift.Equatable {}
+extension CrowdConnectedCore.CrowdConnectedValidationResult : Swift.Hashable {}
+extension CrowdConnectedCore.CrowdConnectedValidationResult : Swift.RawRepresentable {}

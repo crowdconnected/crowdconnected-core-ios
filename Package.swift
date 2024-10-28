@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "CrowdConnectedCore",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(name: "CrowdConnectedCore",
@@ -12,9 +12,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
-                 from: "1.7.0"),
-        .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm",
-                 from: "2.37.0")
+                 from: "2.0.0"),
+        .package(url: "https://github.com/awslabs/aws-sdk-swift",
+                 from: "1.0.14")
     ],
     targets: [
         .target(name: "CrowdConnectedCoreTarget",
@@ -27,10 +27,10 @@ let package = Package(
                 dependencies: [
                     .target(name: "CrowdConnectedCore"),
                     .product(name: "CrowdConnectedShared", package: "crowdconnected-shared-ios"),
-                    .product(name: "AWSCognitoIdentityProvider", package: "aws-sdk-ios-spm"),
-                    .product(name: "AWSCognitoIdentityProviderASF", package: "aws-sdk-ios-spm"),
-                    .product(name: "AWSCore", package: "aws-sdk-ios-spm"),
-                    .product(name: "AWSKinesis", package: "aws-sdk-ios-spm")
+                    .product(name: "AWSCognitoIdentity", package: "aws-sdk-swift"),
+                    .product(name: "AWSCognitoIdentityProvider", package: "aws-sdk-swift"),
+                    .product(name: "AWSClientRuntime", package: "aws-sdk-swift"),
+                    .product(name: "AWSKinesis", package: "aws-sdk-swift")
                 ],
                 path: "CrowdConnectedCoreWrapper",
                 resources: [.copy("Resources/PrivacyInfo.xcprivacy")]),
