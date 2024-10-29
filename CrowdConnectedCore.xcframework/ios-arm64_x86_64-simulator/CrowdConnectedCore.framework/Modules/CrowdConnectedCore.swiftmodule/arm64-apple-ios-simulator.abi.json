@@ -886,8 +886,8 @@
       },
       {
         "kind": "Import",
-        "name": "AWSKinesis",
-        "printedName": "AWSKinesis",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CrowdConnectedCore",
         "declAttributes": [
@@ -896,17 +896,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
         "declKind": "Import",
         "moduleName": "CrowdConnectedCore"
       },
       {
         "kind": "Import",
-        "name": "CrowdConnectedShared",
-        "printedName": "CrowdConnectedShared",
+        "name": "AWSKinesis",
+        "printedName": "AWSKinesis",
         "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4188,17 +4191,20 @@
       },
       {
         "kind": "Import",
-        "name": "AWSCognitoIdentityProvider",
-        "printedName": "AWSCognitoIdentityProvider",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "CrowdConnectedCore"
       },
       {
         "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
+        "name": "AWSCognitoIdentityProvider",
+        "printedName": "AWSCognitoIdentityProvider",
         "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4300,27 +4306,13 @@
       },
       {
         "kind": "Import",
-        "name": "AWSCognitoIdentity",
-        "printedName": "AWSCognitoIdentity",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CrowdConnectedCore",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AWSKinesis",
-        "printedName": "AWSKinesis",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
       },
       {
         "kind": "Import",
@@ -4331,10 +4323,33 @@
       },
       {
         "kind": "Import",
+        "name": "AWSCognitoIdentity",
+        "printedName": "AWSCognitoIdentity",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AWSKinesis",
+        "printedName": "AWSKinesis",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SmithyIdentity",
         "printedName": "SmithyIdentity",
         "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -4992,7 +5007,7 @@
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 3,
-      "value": "216"
+      "value": "217"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SettingsUpdater.swift",
@@ -6257,175 +6272,175 @@
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 467,
+      "offset": 488,
       "length": 22,
       "value": "\"position-data-stream\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 559,
       "length": 19,
       "value": "\"steps-data-stream\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 621,
+      "offset": 642,
       "length": 36,
       "value": "\"bluetooth-observations-data-stream\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 793,
+      "offset": 814,
       "length": 68,
       "value": "\"arn:aws:kinesis:us-east-1:264410908800:stream\/position-data-stream\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 910,
+      "offset": 931,
       "length": 65,
       "value": "\"arn:aws:kinesis:us-east-1:264410908800:stream\/steps-data-stream\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 1039,
+      "offset": 1060,
       "length": 82,
       "value": "\"arn:aws:kinesis:us-east-1:264410908800:stream\/bluetooth-observations-data-stream\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "Array",
-      "offset": 1414,
+      "offset": 1435,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "Array",
-      "offset": 1456,
+      "offset": 1477,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "Array",
-      "offset": 1514,
+      "offset": 1535,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 3369,
+      "offset": 3390,
       "length": 37,
       "value": "\"Could not find recordsPartitionKey.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 3492,
+      "offset": 3513,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 3608,
+      "offset": 3629,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 4042,
+      "offset": 4063,
       "length": 28,
       "value": "\"DB has no steps to upload.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 4198,
+      "offset": 4219,
       "length": 37,
       "value": "\"Could not find recordsPartitionKey.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 4313,
+      "offset": 4334,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 4425,
+      "offset": 4446,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 4887,
+      "offset": 4908,
       "length": 38,
       "value": "\"DB has no BT observations to upload.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 5053,
+      "offset": 5074,
       "length": 37,
       "value": "\"Could not find recordsPartitionKey.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 5200,
+      "offset": 5221,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 5328,
+      "offset": 5349,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "IntegerLiteral",
-      "offset": 6160,
+      "offset": 6181,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 6222,
+      "offset": 6243,
       "length": 29,
       "value": "\"Records have been uploaded.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 6398,
+      "offset": 6419,
       "length": 37,
       "value": "\"Some records failed to be uploaded.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 6532,
+      "offset": 6553,
       "length": 45,
       "value": "\"Failed to uploaded records. Error: \""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseDatabase.swift",
       "kind": "StringLiteral",
-      "offset": 6576,
+      "offset": 6597,
       "length": 2,
       "value": "\"\""
     },
@@ -11619,21 +11634,21 @@
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoUserPool.swift",
       "kind": "StringLiteral",
-      "offset": 1139,
+      "offset": 1160,
       "length": 10,
       "value": "\"USERNAME\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoUserPool.swift",
       "kind": "StringLiteral",
-      "offset": 1177,
+      "offset": 1198,
       "length": 10,
       "value": "\"PASSWORD\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoUserPool.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1236,
       "length": 13,
       "value": "\"SECRET_HASH\""
     },
@@ -11752,98 +11767,98 @@
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 2291,
       "length": 66,
       "value": "\"AWS: Failed to get bearer token for KinesisClient configuration.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 2652,
+      "offset": 2715,
       "length": 36,
       "value": "\"AWS: KinesisClient was configured.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 2810,
+      "offset": 2873,
       "length": 67,
       "value": "\"AWS: Failed to set up Kinesis and upload records. Error: \""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 2876,
+      "offset": 2939,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 3170,
+      "offset": 3233,
       "length": 42,
       "value": "\"Failed to get access token from provider\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 3843,
+      "offset": 3906,
       "length": 43,
       "value": "\"AWS: Failed to get a Cognito Identity ID.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 4717,
+      "offset": 4780,
       "length": 43,
       "value": "\"AWS: Failed to get temporary credentials.\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 5429,
+      "offset": 5492,
       "length": 59,
       "value": "\"AWS: Failed to get temporary credentials. Error: \""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 5487,
+      "offset": 5550,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 5585,
+      "offset": 5648,
       "length": 59,
       "value": "\"AWS: Failed to get a Cognito Identity ID. Error: \""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "StringLiteral",
-      "offset": 5643,
+      "offset": 5706,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "IntegerLiteral",
-      "offset": 5797,
+      "offset": 5860,
       "length": 4,
       "value": "-300"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "IntegerLiteral",
-      "offset": 5929,
+      "offset": 5992,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Databases\/ConcreteDatabases\/FirehoseDatabase\/FirehoseConfigurator.swift",
       "kind": "BooleanLiteral",
-      "offset": 6007,
+      "offset": 6070,
       "length": 5,
       "value": "false"
     },
