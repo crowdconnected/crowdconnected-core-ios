@@ -5000,14 +5000,14 @@
       "kind": "StringLiteral",
       "offset": 242,
       "length": 7,
-      "value": "\"2.0.0\""
+      "value": "\"2.1.0\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Utils\/SDKVersionResolver.swift",
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 3,
-      "value": "217"
+      "value": "218"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/SettingsUpdater.swift",
@@ -6608,70 +6608,70 @@
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1844,
+      "offset": 1954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1888,
+      "offset": 1998,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 1938,
+      "offset": 2048,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2102,
+      "offset": 2212,
       "length": 79,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2128,
+      "offset": 2238,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2154,
+      "offset": 2264,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2180,
+      "offset": 2290,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 2577,
+      "offset": 2687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "Array",
-      "offset": 2656,
+      "offset": 2766,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tcode\/CC\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceStatusProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 4595,
+      "offset": 4705,
       "length": 4,
       "value": "true"
     },

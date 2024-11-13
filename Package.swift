@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
-                 from: "2.0.0"),
+                 from: "2.1.0"),
         .package(url: "https://github.com/awslabs/aws-sdk-swift",
                  from: "1.0.14")
     ],
