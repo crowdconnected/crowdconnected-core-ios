@@ -1,4 +1,4 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.10
 import PackageDescription
 
 let package = Package(
@@ -12,9 +12,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
-                 from: "2.1.2"),
+                 exact: "1.6.7"),
         .package(url: "https://github.com/awslabs/aws-sdk-swift",
-                 from: "1.0.14")
+                 from: "1.2.59")
     ],
     targets: [
         .target(name: "CrowdConnectedCoreTarget",
