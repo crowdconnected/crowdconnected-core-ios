@@ -36,7 +36,10 @@
         "name": "AWSCognitoIdentityProvider",
         "printedName": "AWSCognitoIdentityProvider",
         "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
