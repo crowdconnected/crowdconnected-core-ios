@@ -33,33 +33,6 @@
       },
       {
         "kind": "Import",
-        "name": "AWSCognitoIdentityProvider",
-        "printedName": "AWSCognitoIdentityProvider",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CrowdConnectedShared",
         "printedName": "CrowdConnectedShared",
         "declKind": "Import",
@@ -232,6 +205,23 @@
       },
       {
         "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -290,10 +280,30 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CrowdConnectedShared",
         "printedName": "CrowdConnectedShared",
         "declKind": "Import",
         "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -958,13 +968,6 @@
       },
       {
         "kind": "Import",
-        "name": "CrowdConnectedShared",
-        "printedName": "CrowdConnectedShared",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1012,16 +1015,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CrowdConnectedShared",
         "printedName": "CrowdConnectedShared",
         "declKind": "Import",
@@ -1063,6 +1056,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
       },
       {
         "kind": "TypeDecl",
@@ -2440,6 +2440,33 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CrowdConnectedShared",
+        "printedName": "CrowdConnectedShared",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CrowdConnectedShared",
         "printedName": "CrowdConnectedShared",
         "declKind": "Import",
@@ -2474,40 +2501,10 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CrowdConnectedShared",
         "printedName": "CrowdConnectedShared",
         "declKind": "Import",
         "moduleName": "CrowdConnectedCore"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CrowdConnectedCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -2562,15 +2559,18 @@
       },
       {
         "kind": "Import",
-        "name": "CrowdConnectedShared",
-        "printedName": "CrowdConnectedShared",
+        "name": "AWSCognitoIdentityProvider",
+        "printedName": "AWSCognitoIdentityProvider",
         "declKind": "Import",
-        "moduleName": "CrowdConnectedCore"
+        "moduleName": "CrowdConnectedCore",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "CrowdConnectedCore"
       },
@@ -3217,41 +3217,6 @@
       "offset": 1440,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1087,
-      "length": 5,
-      "value": "\"iOS\""
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1293,
-      "length": 79,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1319,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1345,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1371,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/Utils\/Constants.swift",
@@ -5298,6 +5263,34 @@
       "value": "\"arm64\""
     },
     {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataFetcherSDKStateDecorator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataFetcherSDKStateDecorator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataFetcherSDKStateDecorator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataFetcherSDKStateDecorator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 372,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Interface\/Location.swift",
       "kind": "StringLiteral",
       "offset": 260,
@@ -5338,6 +5331,41 @@
       "offset": 1417,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1293,
+      "length": 79,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1319,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1345,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/ralfkernchen\/Colocatorv3iOS\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/DeviceCapabilitiesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
@@ -5415,34 +5443,6 @@
       "offset": 6108,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataFetcherSDKStateDecorator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 274,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataFetcherSDKStateDecorator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 307,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataFetcherSDKStateDecorator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 341,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/DateStreamManagers\/DataFetcherSDKStateDecorator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 372,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/ralfkernchen\/ColocatorV3iOS\/ColocatorCore\/CrowdConnectedCore\/Network\/APIRequest.swift",
