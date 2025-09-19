@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mT2OiAjr9OytcUJYNjZa8XY/B4k=
+		7Gb8Wm+I0ikvQKQp40TPvBBEj8U=
 		</data>
 		<key>Modules/CrowdConnectedCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YhUXTxZ83C5qKMwmNUwcFZ7BJmU=
+		ierJs6+wwa0ZQswExLe+NDfrNb8=
 		</data>
 		<key>Modules/CrowdConnectedCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/CrowdConnectedCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pzH2xG5LRuiY7qpYpNijFb1b1is=
+		2g4t5DZmBLld+q+Tapxv2V+daFs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gs7chsdMCeJY5tgPnqYIdwJeAWVubrmd+c3Kheysuc0=
+			pXiXolgX7rja4957hKHVRVoG1B65+J/y32Xb7HzEI2s=
 			</data>
 		</dict>
 		<key>Modules/CrowdConnectedCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mt1m0BGVhg3mTTp0O99u21yRT5jvu3aqf1esxKQIM7k=
+			BKdVUpBnxqwg6p+umuX7LYcx9zEfcVwOf9kUm6j0gpQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
