@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/crowdconnected/crowdconnected-shared-ios.git",
-                 exact: "2.2.1-beta.2")
+                 exact: "2.2.1-beta.3")
                  ],
     targets: [
         .target(name: "CrowdConnectedCoreTarget",

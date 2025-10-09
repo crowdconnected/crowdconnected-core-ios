@@ -4732,49 +4732,49 @@
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
       "kind": "StringLiteral",
-      "offset": 3001,
+      "offset": 2996,
       "length": 62,
       "value": "\"Refresh token was set to \""
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
       "kind": "StringLiteral",
-      "offset": 3062,
+      "offset": 3057,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
       "kind": "StringLiteral",
-      "offset": 3264,
+      "offset": 3259,
       "length": 28,
       "value": "\"CrowdConnected.CognitoAuth\""
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
       "kind": "Array",
-      "offset": 3372,
+      "offset": 3367,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
       "kind": "BooleanLiteral",
-      "offset": 3415,
+      "offset": 3410,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
       "kind": "FloatLiteral",
-      "offset": 3725,
+      "offset": 3720,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
       "kind": "FloatLiteral",
-      "offset": 3792,
+      "offset": 3787,
       "length": 6,
       "value": "1920.0"
     },
@@ -6419,21 +6419,21 @@
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 3906,
+      "offset": 3730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 8034,
+      "offset": 7837,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/API\/APIProvider.swift",
       "kind": "BooleanLiteral",
-      "offset": 9866,
+      "offset": 9662,
       "length": 4,
       "value": "true"
     },
