@@ -4772,13 +4772,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Login\/CognitoLogin.swift",
-      "kind": "StringLiteral",
-      "offset": 3819,
-      "length": 55,
-      "value": "\"com.crowdconnected.datapublisher.tokenGenerationTimer\""
-    },
-    {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/SDKVersionResolver.swift",
       "kind": "StringLiteral",
       "offset": 141,
@@ -4837,49 +4830,42 @@
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1515,
       "length": 38,
       "value": "\"com.crowdconnected.v3.libraryrefresh\""
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
       "kind": "BooleanLiteral",
-      "offset": 1564,
+      "offset": 1588,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
       "kind": "BooleanLiteral",
-      "offset": 1619,
+      "offset": 1643,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/LogsMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 493,
-      "length": 31,
-      "value": "\"LogsMonitorTimerDispatchQueue\""
-    },
-    {
-      "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/LogsMonitor.swift",
       "kind": "IntegerLiteral",
-      "offset": 987,
+      "offset": 624,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/LogsMonitor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1032,
+      "offset": 669,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/LogsMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 774,
       "length": 17,
       "value": "\"LogsAccessQueue\""
     },
@@ -5264,70 +5250,70 @@
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 814,
+      "offset": 811,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 819,
+      "offset": 816,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 895,
+      "offset": 892,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 979,
+      "offset": 976,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1096,
+      "offset": 1093,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1174,
+      "offset": 1171,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1247,
+      "offset": 1244,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1254,
+      "offset": 1251,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1259,
+      "offset": 1256,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1264,
+      "offset": 1261,
       "length": 2,
       "value": "24"
     },
@@ -6278,15 +6264,8 @@
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/StateMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 1134,
-      "length": 41,
-      "value": "\"com.sdk.stateMonitor.settingsTimerQueue\""
-    },
-    {
-      "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/StateMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1523,
+      "offset": 1166,
       "length": 5,
       "value": "false"
     },
@@ -6459,13 +6438,6 @@
       "value": "60"
     },
     {
-      "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/DataStreamManagers\/DataPublisher.swift",
-      "kind": "StringLiteral",
-      "offset": 546,
-      "length": 44,
-      "value": "\"com.crowdconnected.datapublisher.positions\""
-    },
-    {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Network\/APIRequest.swift",
       "kind": "StringLiteral",
       "offset": 233,
@@ -6499,13 +6471,6 @@
       "offset": 672,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/BeaconsLastSeenMonitor\/BeaconsLastSeenMonitor.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 53,
-      "value": "\"com.crowdconnected.beaconsLastSeen.uploadTimerQueue\""
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/StateMonitor\/DeviceCapabilities\/LocationAuthorizationStatusProvider.swift",
