@@ -30,9 +30,9 @@ import _SwiftConcurrencyShims
   @objc public func start(credentials: CrowdConnectedCore.SDKCredentials, trackingMode: CrowdConnectedCore.LocationTrackingMode, completion: @escaping (CrowdConnectedCore.DeviceID?, CrowdConnectedCore.CrowdConnectedValidationResult) -> Swift.Void)
   @objc public func stop()
   @objc public func setAlias(key: Swift.String, value: Swift.String)
-  @available(iOS 13.0, *)
+  @available(*, deprecated, message: "Will be removed in future versions. Background refreshes are now activated automatically upon SDK start.")
   @objc public func activateSDKBackgroundRefresh()
-  @available(iOS 13.0, *)
+  @available(*, deprecated, message: "Will be removed in future versions. Background refreshes are now scheduled automatically upon activation.")
   @objc public func scheduleRefresh()
   @objc deinit
 }

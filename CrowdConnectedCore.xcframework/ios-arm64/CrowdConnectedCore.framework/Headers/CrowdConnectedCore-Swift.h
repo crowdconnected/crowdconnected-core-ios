@@ -342,9 +342,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CrowdConnect
 /// Set and persist an alias for the current device.
 - (void)setAliasWithKey:(NSString * _Nonnull)key value:(NSString * _Nonnull)value;
 /// Activate automatic background SDK refreshes.
-- (void)activateSDKBackgroundRefresh SWIFT_AVAILABILITY(ios,introduced=13.0);
+- (void)activateSDKBackgroundRefresh SWIFT_DEPRECATED_MSG("Will be removed in future versions. Background refreshes are now activated automatically upon SDK start.");
 /// Schedule the first background SDK refresh.
-- (void)scheduleRefresh SWIFT_AVAILABILITY(ios,introduced=13.0);
+- (void)scheduleRefresh SWIFT_DEPRECATED_MSG("Will be removed in future versions. Background refreshes are now scheduled automatically upon activation.");
 @end
 
 @class Location;

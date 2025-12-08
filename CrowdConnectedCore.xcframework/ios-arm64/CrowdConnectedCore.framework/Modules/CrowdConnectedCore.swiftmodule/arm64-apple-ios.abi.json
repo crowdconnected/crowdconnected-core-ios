@@ -967,7 +967,7 @@
             "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)activateSDKBackgroundRefresh",
             "mangledName": "$s18CrowdConnectedCore0aB0C28activateSDKBackgroundRefreshyyF",
             "moduleName": "CrowdConnectedCore",
-            "intro_iOS": "13.0",
+            "deprecated": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -991,7 +991,7 @@
             "usr": "c:@M@CrowdConnectedCore@objc(cs)CrowdConnected(im)scheduleRefresh",
             "mangledName": "$s18CrowdConnectedCore0aB0C15scheduleRefreshyyF",
             "moduleName": "CrowdConnectedCore",
-            "intro_iOS": "13.0",
+            "deprecated": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -4830,21 +4830,28 @@
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
       "kind": "StringLiteral",
-      "offset": 1515,
+      "offset": 1514,
       "length": 38,
       "value": "\"com.crowdconnected.v3.libraryrefresh\""
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
+      "kind": "StringLiteral",
+      "offset": 1598,
+      "length": 28,
+      "value": "\"com.crowdconnected.v3.lock\""
+    },
+    {
+      "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
       "kind": "BooleanLiteral",
-      "offset": 1588,
+      "offset": 1712,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kin\/Bitbucket\/atlassian-bitbucket-pipelines-runner\/temp\/0777b103-3821-5dd7-a0ed-8eb799e60235\/build\/colocator-v3-ios\/ColocatorCore\/CrowdConnectedCore\/Interface\/CrowdConnected.swift",
       "kind": "BooleanLiteral",
-      "offset": 1643,
+      "offset": 1768,
       "length": 5,
       "value": "false"
     },
